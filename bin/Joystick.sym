@@ -1,0 +1,8 @@
+.label JoyControl=$2000 {
+  .label jup=$2013
+  .label jfire=$2022
+  .label jdown=$2017
+  .label jleft=$201b
+  .label jright=$201f
+  .label Exit=$2022
+}

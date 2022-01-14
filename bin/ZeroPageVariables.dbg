@@ -1,0 +1,41 @@
+<C64debugger version="1.0">
+   <Sources values="INDEX,FILE">
+      0,KickAss.jar:/include/autoinclude.asm
+      1,E:\OneDrive\Phaze101_Private\Metamorphosis\Code\Metamorphosis\Includes\ZeroPageVariables.asm
+   </Sources>
+
+   <Segment name="Default" dest="" values="START,END,FILE_IDX,LINE1,COL1,LINE2,COL2">
+   </Segment>
+
+   <Labels values="SEGMENT,ADDRESS,NAME,START,END,FILE_IDX,LINE1,COL1,LINE2,COL2">
+      Default,$0002,MultiplyNum1,1,8,2,8,14
+      Default,$0003,MultiplyNum2,1,11,2,11,14
+      Default,$0004,MultiplyNum1Hi,1,14,2,14,16
+      Default,$0005,MapLoaderTileLookup,1,17,2,17,21
+      Default,$0007,MapLoaderMapLookup,1,20,2,20,20
+      Default,$0009,MapLoaderColumn,1,23,2,23,17
+      Default,$000a,MapLoaderRow,1,26,2,26,14
+      Default,$000b,ScreenNo,1,29,2,29,10
+      Default,$000c,ScreenY,1,32,2,32,9
+      Default,$000d,ScreenX,1,35,2,35,9
+      Default,$000e,ScreenTop,1,38,2,38,11
+      Default,$000f,ScreenBelow,1,41,2,41,13
+      Default,$0010,ScreenLeft,1,44,2,44,12
+      Default,$0011,ScreenRight,1,47,2,47,13
+      Default,$0040,Num1_lo,1,59,2,59,9
+      Default,$0041,Num1_hi,1,61,2,61,9
+      Default,$0042,Num2_lo,1,65,2,65,9
+      Default,$0043,Num2_hi,1,67,2,67,9
+      Default,$0044,result1_lo,1,71,2,71,12
+      Default,$0045,result1_hi,1,73,2,73,12
+      Default,$0046,result2_lo,1,77,2,77,12
+      Default,$0047,result2_hi,1,79,2,79,12
+   </Labels>
+
+   <Breakpoints values="SEGMENT,ADDRESS,ARGUMENT">
+   </Breakpoints>
+
+   <Watchpoints values="SEGMENT,ADDRESS1,ADDRESS2,ARGUMENT">
+   </Watchpoints>
+
+</C64debugger>

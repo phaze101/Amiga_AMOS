@@ -1,0 +1,50 @@
+<C64debugger version="1.0">
+   <Sources values="INDEX,FILE">
+      0,E:\OneDrive\Phaze101_Private\Metamorphosis\Code\Metamorphosis\Includes\Joystick.asm
+      1,KickAss.jar:/include/autoinclude.asm
+   </Sources>
+
+   <Segment name="Default" dest="" values="START,END,FILE_IDX,LINE1,COL1,LINE2,COL2">
+      <Block name="Joystick Start">
+         $2000,$2002,0,17,9,17,11
+         $2003,$2003,0,18,9,18,11
+         $2004,$2005,0,19,9,19,11
+         $2006,$2006,0,20,9,20,11
+         $2007,$2008,0,21,9,21,11
+         $2009,$2009,0,22,9,22,11
+         $200a,$200b,0,23,9,23,11
+         $200c,$200c,0,24,9,24,11
+         $200d,$200e,0,25,9,25,11
+         $200f,$200f,0,26,9,26,11
+         $2010,$2011,0,27,9,27,11
+         $2012,$2012,0,28,9,28,11
+         $2013,$2015,0,31,3,31,5
+         $2016,$2016,0,32,3,32,5
+         $2017,$2019,0,35,3,35,5
+         $201a,$201a,0,36,3,36,5
+         $201b,$201d,0,39,3,39,5
+         $201e,$201e,0,40,3,40,5
+         $201f,$2021,0,43,3,43,5
+         $2022,$2023,0,47,3,47,5
+         $2024,$2026,0,48,3,48,5
+         $2027,$2027,0,49,3,49,5
+      </Block>
+   </Segment>
+
+   <Labels values="SEGMENT,ADDRESS,NAME,START,END,FILE_IDX,LINE1,COL1,LINE2,COL2">
+      Default,$2000,JoyControl,0,16,1,16,11
+      Default,$2013,jup,0,30,2,30,5
+      Default,$2017,jdown,0,34,2,34,7
+      Default,$201b,jleft,0,38,2,38,7
+      Default,$201f,jright,0,42,2,42,8
+      Default,$2022,jfire,0,45,2,45,7
+      Default,$2022,Exit,0,46,2,46,6
+   </Labels>
+
+   <Breakpoints values="SEGMENT,ADDRESS,ARGUMENT">
+   </Breakpoints>
+
+   <Watchpoints values="SEGMENT,ADDRESS1,ADDRESS2,ARGUMENT">
+   </Watchpoints>
+
+</C64debugger>

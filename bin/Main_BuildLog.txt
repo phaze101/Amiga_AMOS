@@ -1,0 +1,34 @@
+parsing
+flex pass 1
+flex pass 2
+flex pass 3
+Output pass
+Writing prg file: E:\OneDrive\Phaze101_Private\Metamorphosis\Code\Metamorphosis\bin\Main.prg
+
+Memory Map
+----------
+Default-segment:
+  *$0002-$0011 zero Page Constants
+  *$0040-$0047 Div16Div32Convert
+  $0048-$008f Convert Hex to Decimal
+  $0090-$008f Convert Hex to Decimal End
+  $0090-$015e MapLoader Starts
+  $015f-$01ce MapLoader Ends
+  $01cf-$01ce *** Code End ***
+  $0801-$080c Basic
+  $080e-$080d Basic End
+  $080e-$0810 *** Code Start ***
+  $2800-$28ff Colour Attributes
+  $2900-$2cff TileSet Data
+  $3400-$5ef7 Map Data
+  $6000-$613a Screen Table
+  $c000-$c7ff Character Set
+
+Got 0 errors and 4 warnings while executing:
+  (E:\OneDrive\Phaze101_Private\Metamorphosis\Code\Metamorphosis\Includes\MapLoader.asm 102:4) Warning: Using absolute mode for zeropage argument. Try defining involved labels before this statement.
+  (E:\OneDrive\Phaze101_Private\Metamorphosis\Code\Metamorphosis\Includes\MapLoader.asm 103:4) Warning: Using absolute mode for zeropage argument. Try defining involved labels before this statement.
+  (E:\OneDrive\Phaze101_Private\Metamorphosis\Code\Metamorphosis\Includes\MapLoader.asm 105:4) Warning: Using absolute mode for zeropage argument. Try defining involved labels before this statement.
+  (E:\OneDrive\Phaze101_Private\Metamorphosis\Code\Metamorphosis\Includes\MapLoader.asm 107:4) Warning: Using absolute mode for zeropage argument. Try defining involved labels before this statement.
+
+Writing Vice symbol file: E:\OneDrive\Phaze101_Private\Metamorphosis\Code\Metamorphosis\bin\Main.vs
+Writing Symbol file: Main.sym

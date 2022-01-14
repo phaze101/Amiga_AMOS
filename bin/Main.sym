@@ -1,0 +1,160 @@
+.label ClearScreen=$a77 {
+}
+.label CharAttributes=$9800
+.label GameStart=$cc9
+.label result2_hi=$47
+.label ScreensLayoutMapTable=$9200
+.label Sprites=$d000
+.label MapData=$9900
+.label result2_lo=$46
+.label div10_16bit=$84d {
+  .label loop=$852
+  .label skip=$859
+}
+.label div10_8bit=$83b {
+  .label loop=$840
+  .label skip=$847
+}
+.label PlayerJoyControl=$a0f {
+  .label jup=$a22
+  .label jfire=$a31
+  .label jdown=$a26
+  .label jleft=$a2a
+  .label jright=$a2e
+  .label Exit=$a31
+}
+.label InitPlayer=$ca5 {
+}
+.label DebugInfo=$969 {
+  .label Next10=$a05
+  .label Next1=$97e
+  .label Next2=$98d
+  .label Next=$96f
+  .label Next5=$9ba
+  .label Next6=$9c9
+  .label Next3=$99c
+  .label Next4=$9ab
+  .label Next9=$9f6
+  .label Next7=$9d8
+  .label Next8=$9e7
+}
+.label ViewAllScreen=$aae {
+  .label Loop=$ab2
+}
+.label Display16Bit=$81f {
+  .label Next=$821
+}
+.label WaitForSpace=$b4c {
+  .label WaitLoop2=$b62
+  .label WaitLoop1=$b5b
+}
+.label result1_lo=$44
+.label result1_hi=$45
+.label Mult8Bit_8Bit=$879 {
+  .label m0=$87e
+  .label m1=$883
+}
+.label CalcScreen=$ac1 {
+  .label LoopX=$ae7
+}
+.label MapLoaderRow=$a
+.label ScreenNo=$b
+.label ScreenBelow=$f
+.label MapLoaderMapLookup=$7
+.label ScreenX=$d
+.label ScreenY=$c
+.label ResetCols=$c51 {
+}
+.label CharSet=$c000
+.label Display32Bit=$82d {
+  .label Next=$82f
+}
+.label ScreenTop=$e
+.label Num1_hi=$41
+.label Entry=$80e
+.label Num1_lo=$40
+.label Keyboard_1234=$bb9 {
+  .label check_3=$bd6
+  .label check_4=$be2
+  .label check_1=$bbe
+  .label check_2=$bca
+  .label check_r=$bee
+  .label check_b=$bfa
+  .label go_1=$c02
+  .label go_2=$c0d
+  .label go_r=$c2e
+  .label go_b=$c31
+  .label go_3=$c18
+  .label go_4=$c23
+}
+.label DebugPanel=$b6a {
+}
+.label InitKeyboard=$b41 {
+}
+.label UpdateCols=$c34 {
+}
+.label Display8Bit=$811 {
+  .label Next=$813
+}
+.label ScreenLeft=$10
+.label BWCols=$c7b {
+}
+.label SpritesAttributes=$cc00
+.label Keyboard_WASD=$b71 {
+  .label check_s=$b8e
+  .label check_d=$b82
+  .label check_a=$b76
+  .label go_right=$ba7
+  .label go_left=$ba2
+  .label go_down=$bb1
+  .label go_up=$bac
+  .label check_w=$b9a
+  .label DoCalcScreen=$bb5
+  .label Exit=$bb8
+}
+.label ScreenRight=$11
+.label InitScreen=$a99 {
+  .label LoopX=$aa3
+}
+.label TileSet=$9400
+.label MultiplyNum1=$2
+.label MultiplyNum2=$3
+.label Col1=$12
+.label Num2_hi=$43
+.label Col2=$13
+.label Col3=$14
+.label Num2_lo=$42
+.label SaveScreenColours=$b10 {
+  .label LoopX=$b36
+}
+.label MapLoaderColumn=$9
+.label Col4=$15
+.label MapLoader=$88c {
+  .label TileToScreenOffsets=$88c
+  .label DrawMap=$890 {
+    .label ScreenMod=$8df
+    .label ColorMod=$8e9
+  }
+  .label Multiply=$94e {
+    .label doAdd=$955
+    .label enterLoop=$962
+    .label loop=$95e
+  }
+}
+.label div10_32bit=$861 {
+  .label loop=$866
+  .label skip=$86d
+}
+.label MultiplyNum1Hi=$4
+.label MapLoaderTileLookup=$5
+.label End_ScreensLayoutMapTable=$920b
+.label WaitRaster=$a37 {
+  .label f6=$a5a
+  .label f7=$a61
+  .label f8=$a68
+  .label f9=$a6f
+  .label f2=$a3e
+  .label f3=$a45
+  .label f4=$a4c
+  .label f5=$a53
+}

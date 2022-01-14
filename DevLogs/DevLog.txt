@@ -1,0 +1,143 @@
+In Here I (Prince/Phaze101) will try to document everyting that was done in the code by the day
+
+Note I am trying to code this for the C64, Amiga and Mega64 however officially
+I am doing this only on the C64. I haven't told anyone about my intensions for
+the other platforms.
+
+In here I will document only those related to the C64.
+
+Latest update is always on the top.
+
+Note to myself -  To assemble use F6 and to Debug use Shift F6
+#######################################################################################################################
+
+12/01/2022
+-----------------------------------------------------------------------------------------------------------------------
+1. Updated to latest Map No 33
+2. Fixed issues with 0 and Space since the character set changed
+3. Impleted the Black and White option in the game with the letter B
+
+
+
+11/01/2022
+-----------------------------------------------------------------------------------------------------------------------
+1. Fix issue of saving the colours
+2. Implemented Fully Save Colours Per Screen
+3. Update latest Map
+4. Update latest Sprites
+
+
+09/01/2022
+-----------------------------------------------------------------------------------------------------------------------
+1. Reorganised memory again
+2. Keyboard Input routines to change screen colours
+3. Ability to save screen colours
+
+03/01/2022
+-----------------------------------------------------------------------------------------------------------------------
+1. Added new sprites27 
+
+29/12/2021
+-----------------------------------------------------------------------------------------------------------------------
+1. Added Player Sprite On Screen
+2. Reorganised memory - More optimised now
+3. Reorganised source part of DrawMap
+4. Debug Info undate with Proper colours
+5. Clearning the Screen now we also set Colour memory
+
+28/12/2021
+-----------------------------------------------------------------------------------------------------------------------
+1. Added new GFX 
+
+28/12/2021
+-----------------------------------------------------------------------------------------------------------------------
+1. Added Keyboard routines to scroll through screens
+2. Updated the Wait For Space Routine by checking when the key is released
+3. Reinstated the Wait For Frame for every Frame
+4. Added an Image with the Ke Map Hardware Setup
+
+26/12/2021
+-----------------------------------------------------------------------------------------------------------------------
+1. Separated the Zeropage Varaibles from Main.s
+2. Create Joystick Routine
+3. Create another Multiplications
+4. Create Maths routines for multiplication and division
+5. Wait for Key Routine
+6. Screen routines
+7. Wait Fro Raster - Currently updating screen every 15 frames or 4 frames per Second
+8. View all screen routines
+9. Calculate the next screen to view based on a screen number
+10. Joystick routine to move through all screens
+
+
+25/12/2021
+-----------------------------------------------------------------------------------------------------------------------
+1. Division by 10, 8 bit number
+2. Division by 10, 8 bit number
+3. Division by 10, 8 bit number
+4. Convert Hex to Decimal
+5. Debug info on line 22 on screen
+
+22/12/2021
+-----------------------------------------------------------------------------------------------------------------------
+1. Added a Screen Map Layout Table
+2. Add Routine to Init the Screen
+
+21/12/2021
+-----------------------------------------------------------------------------------------------------------------------
+This is the Day I committed restart coding Metamophosis.
+Things are clearer although the GFX is far from ready and due to the MSX version
+because it has a smaller screen the GFX are begin designed for the MSx and then
+made wider fot the C64. 
+
+The C64 Screen is 320 x 200 or 40 columns by 25 row.
+The Amiga has 320 x 256 or 40 columns by 32 rows.
+The Mega65 is exactly like the C64 but more colours
+
+Info on Character Set by Leonardo (this for sure will change)
+
+	SOLID: From caracter 0 to 215
+	EMPTY: From character 210 to 245
+	STAIRS: 246 and 247
+	PLATFORM: 248 and 249 (You can pass them from down to up)
+	SLIDES: 250 and 251
+	TOXIC : 252, 253, 254, 255
+
+	COLOR CHARACTERISTCS
+	First batch of colors. LO-RES
+	For what concern Color i would like to change MULTICOLOR 1 and 2 as i prefer
+	depending on the screen of characters that goes from 0 to 159.
+
+	Second batch of colors HI-RES
+	i would like to change color from character 160 to 251.
+
+	This is the simplest combination i found for the characteristics/ colors of
+	the characters.
+
+
+	BOSSES
+	As you can see i designed i couple of bosses, just to show you my idea.
+	I have to work on it, but my idea remains to design them black, like the player.
+
+
+Done
+1. Switch BASIC and Kernal
+2. Use the following
+	CharSet - $C000 - $C7ff - 2K
+	Screen1 - $C800 - $CBE8 - 1000 Bytes
+	Screen2 - $CC00 - $CFE8 - 1000 Bytes
+	Sprites - $D000 - $FFFF - Sprite 64 to 255 - 192 Sprites
+3. Test Map - Loaded successfully with the above settings
+
+28/05/21
+-----------------------------------------------------------------------------------------------------------------------
+Here is a bit of history
+I actually started working on Metamorphosis on this day.
+These were initially initial tests.
+The tests involved being able to draw a map to the screen and change from one
+screen to another based on X and Y of the map.
+I did this for the C64 and The Amiga.
+The Map I had was for the C64 but I converted it for the Amiga.
+Then I had to stop coding since I had to wait for GFX to be decided and enemy
+movement still needs to be dicussed. 
+I finished my testing related to the map on 17/06/21
